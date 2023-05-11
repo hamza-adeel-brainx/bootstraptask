@@ -1,0 +1,291 @@
+:root{
+    --primary-color:#0d4f9a
+}
+h1,h2,h3,h4,h5{
+    color: var(--primary-color) !important;
+}
+.announcment-bar{
+background-color: var(--primary-color);
+}
+.link-charity:hover{
+opacity: 0.5;
+}
+.link-charity{
+    letter-spacing: 1.5px;
+    font-size: 1.1rem;
+    max-height:100%;
+}
+.charity-img{
+    width: 36px;
+    height: 35px;
+
+}
+.profile:hover .dropdown > a {
+    opacity:0.5;
+}
+.profile:hover .dropdown-content {
+        display: block;
+    
+}
+.profile-icon{
+    width: 29px;
+    height: 24px;
+}
+.announcment-bar-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    margin-right: 10px;
+    
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px var(--primary-color);
+    margin-top: 10px;
+    margin-right: 20px;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: white;
+    background-color: var(--primary-color);
+    text-decoration: none;
+    font-size: small;
+    height: 40px;
+    display: block;
+    border: none;
+}
+.dropdown-content a {
+    color: white;
+    background-color: var(--primary-color);
+    text-decoration: none;
+    font-size: small;
+    height: 40px;
+    display: block;
+    border: none;
+}
+.dropdown-content hr{
+margin: 0px;
+}
+.main-logo:hover{
+    opacity: 0.5;
+}
+.nav-btn{
+    background-color: var(--primary-color);
+}
+.nav-btn:hover{
+background-color: var(--primary-color);
+color: white;
+}
+.biotrust-logo{
+    max-width: 70%;
+}
+
+.nav-btn:hover .dropdown-content-shop a{
+    display: block;
+    }
+
+
+.dropdown-content-shop{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    top: 55px;
+    z-index: 1;
+}
+
+.dropdown-content-shop a{
+color:var(--primary-color);
+background-color: white;
+text-decoration: none;
+font-size: 15px;
+height: 40px;
+display: block;
+}
+
+.nav-link{
+    color: var(--primary-color) !important;
+}
+
+.blue-line{
+    background: var(--primary-color);
+    opacity: 1;
+    height: 8px;
+   
+}
+.link-breadcrumb{
+color: var(--primary-color);
+
+}
+
+.btn-package{
+    /* padding-left:150px;
+    padding-right:150px; */
+    width: 100%;
+    background-color: #fff;
+    color: var(--primary-color) !important;
+    border-color: var(--primary-color);
+}
+
+.btn-package:focus{ 
+    background-color:var(--primary-color) !important;
+    color: #fff !important;
+   
+}
+.btn-first{
+    border: 2px solid #09488f;
+    margin-top: 15px;
+    padding-right: 13px;
+    height: fit-content;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+
+}
+
+.btn-flavor{
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    background-color: #2bb34d;
+    font-family: Lato,Helvetica Neue,sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 12px 20px;
+    border: none;
+}
+.margin-btn1{
+    margin-top: 100px;
+}
+
+.margin-btn2{
+   margin-top: 80px;
+ 
+
+}
+.margin-btn3{
+    margin-top: 50px;
+
+ }
+.text-price{
+    font-size: 42px!important;
+    font-weight: 700!important;
+    color: rgb(9, 174, 9) !important;
+}
+.most-pop{
+    margin-top: -35px;
+    margin-left: -5px;
+    margin-right: -5px;
+    width:-webkit-fill-available;
+    background-color: #0d4f9a;
+    border: 2px solid #0d4f9a;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+}
+.community-photos{
+    color: var(--primary-color);
+    font-weight: 700;
+}
+.carousel-img{
+width: calc(100%/5);
+height: auto;
+padding: 0 5px;
+border-radius: 5px !important;
+object-fit: cover;
+margin: 0;
+}
+.carousel-img-vertical{
+  width: 100px;
+  height: 100px;
+    }
+
+.carousel-img:hover{
+opacity: 0.5;
+}
+.product-img{
+    width: 80%;
+}
+.reviews:hover{
+    opacity: 0.5;
+} 
+.clump{
+    letter-spacing: 1px;
+    color: black !important;
+}
+.boxes-bottom{
+    background-color: #073d7a;
+    border: 1px solid white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.feature-review{
+border-right: 10px solid rgb(11, 196, 11);
+}
+.feature-review-text{
+    font-size: 60px;
+    line-height: 110%;
+    font-weight: 600;
+    text-align: right;
+}
+
+.feature-read-text1{
+color: rgb(11, 196, 11);
+font-size: 22px;
+text-align: right;
+}
+.verified{
+    color: rgb(11, 196, 11);
+}
+.footer-color{
+    background-color: var(--primary-color);
+}
+.carousel-vertical {
+    /* margin-top: 100px; */
+    position: relative;
+    height: 501px;
+    width: fit-content;
+    overflow: hidden;
+    transform:rotate(-90deg);
+    z-index: -1;
+}
+.video-section{
+    background-color: #0056b8;
+    text-align: center;
+    padding: 50px 0px;
+    border-bottom: 7px solid rgb(14, 158, 14);
+}
+.top-video{
+width: fit-content;
+}
+@media screen and (max-width: 1358px ) {
+    .announcment-bar{ display: none;}
+  }
+@media screen and (max-width: 1200px ) {
+}
+  @media screen and (max-width: 976px ) {
+    .nav-btn{display: none;}
+  }
+  @media screen and (max-width: 776px ) {
+    .biotrust-logo{
+        max-width:none;
+       }
+       .boxes-bottom{width: 50%;}
+  }
+  @media screen and (max-width: 576px ){
+ 
+  }
